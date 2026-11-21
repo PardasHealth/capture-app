@@ -16,6 +16,8 @@ export const getDateFnLocale = async (locale) => {
     case 'da': return (await import('date-fns/locale/da/index.js')).default;
     case 'en': return (await import('date-fns/locale/en/index.js')).default;
     case 'es': return (await import('date-fns/locale/es/index.js')).default;
+    case 'fa': return (await import('date-fns/locale/fa-IR/index.js')).default;
+    case 'fa-IR': return (await import('date-fns/locale/fa-IR/index.js')).default;
     case 'fr': return (await import('date-fns/locale/fr/index.js')).default;
     case 'id': return (await import('date-fns/locale/id/index.js')).default;
     case 'id-ID': return (await import('date-fns/locale/id/index.js')).default;
