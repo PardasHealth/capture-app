@@ -17,6 +17,8 @@ export const getMomentLocale = async (locale) => {
     case 'da': return (await import('moment/dist/locale/da')).default;
     case 'en': return (await import('moment/dist/locale/en-gb')).default;
     case 'es': return (await import('moment/dist/locale/es')).default;
+    case 'fa': return (await import('moment/dist/locale/fa')).default;
+    case 'fa-IR': return (await import('moment/dist/locale/fa')).default;
     case 'fr': return (await import('moment/dist/locale/fr')).default;
     case 'hi-IN': return (await import('moment/dist/locale/hi')).default;
     case 'id': return (await import('moment/dist/locale/id')).default;
